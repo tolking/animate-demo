@@ -14,6 +14,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['vue-demi']
   },
+  build: {
+    outDir: 'docs',
+  },
   plugins: [
     vue(),
     Pages(),
