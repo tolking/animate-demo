@@ -6,11 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build --base=/animate-demo/",
-    "preview": "vite preview"
+    "preview": "vite preview --base=/animate-demo/"
   },
   "dependencies": {
     "@vueuse/core": "^9.1.0",
-    "@vueuse/shared": "^9.1.0",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"
   },
